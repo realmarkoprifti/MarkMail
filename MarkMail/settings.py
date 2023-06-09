@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '3567951e3751b062741ca5bb2433c6d603dff66ab120e4b59b6e58b7d15478d4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["markmail.vercel.app"]
+ALLOWED_HOSTS = ["markmail.vercel.app", "markmail-production.up.railway.app"]
 
 
 # Application definition
