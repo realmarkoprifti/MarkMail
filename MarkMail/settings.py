@@ -28,7 +28,7 @@ SECRET_KEY = '3567951e3751b062741ca5bb2433c6d603dff66ab120e4b59b6e58b7d15478d4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["markmail.vercel.app"]
 
 
 # Application definition
@@ -183,9 +183,7 @@ SIMPLE_JWT = {
 RECAPTCHA_SECRET = "6LeG6VImAAAAAAovzkCG4YDj0Tdw2a_kwzsQpAGg"
 
 CORS_ORIGIN_WHITELIST = [
-    'http://127.0.0.1:5173',
-    'http://localhost:5173',
-    'http://localhost'
+    'https://markmail.vercel.app'
 ]
 
 SESSION_COOKIE_SECURE = True
