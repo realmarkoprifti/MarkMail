@@ -1,4 +1,4 @@
-from MarkMail.settings import RECAPTCHA_SECRET
+from MarkMail.settings import RECAPTCHA_SECRET, MARKCHAT_LOGIN_CAPTCHA
 import requests
 
 def check_captcha(captcha_value):
