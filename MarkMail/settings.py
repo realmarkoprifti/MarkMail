@@ -186,5 +186,8 @@ CORS_ORIGIN_WHITELIST = [
     'https://markmail.vercel.app'
 ]
 
+MARKCHAT_LOGIN_CAPTCHA = os.environ.get('MARKCHAT_LOGIN_CAPTCHA')
+
+
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
