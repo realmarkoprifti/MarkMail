@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["markmail.vercel.app", "markmail-production.up.railway.app"]
+ALLOWED_HOSTS = ["markmail.vercel.app", "markmail.onrender.com"]
 
 
 # Application definition
